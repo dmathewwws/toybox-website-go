@@ -1,0 +1,156 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>ToyBox Media Inc. - About Us </title>
+    <link rel="stylesheet" href="/stylesheets/base.css" data-bundle="base">
+    <link rel="stylesheet" href="/stylesheets/websites.css" data-bundle="websites">
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- <link href="/images/icon-big.jpg" rel="shortcut icon" type="image/x-icon"> -->
+
+<meta name="description" content="">
+<meta name="keywords" content="ToyBox Media Inc, toybox media, vancouver dev shop, vancouver iOS apps, vancouver mobile dev shop, vancouver iOS dev shop, about us">
+
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:100,200,300italic,400italic,600italic,700italic,800italic,400,300,600,700,800|Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic|Raleway:400,100,200,300,500,600,700,800,900" rel="stylesheet" type="text/css">
+
+<style type="text/css">
+    #public-landing-page.template-1 .hero,
+    #public-landing-page.template-2 .hero,
+    #public-landing-page.template-3 .hero,
+    #public-landing-page.template-4 .hero,
+    #public-landing-page.template-7 .hero,
+    #public-landing-page.template-8 .hero .graphic,
+    #public-landing-page.template-9 .bg-color,
+    #public-landing-page.template-9 .hero h1,
+    #public-landing-page .store-badge-white-text,
+    #public-landing-page.template-1color .hero,
+    #public-landing-page.template-2color .hero {
+      background: #68CBB4;
+    }
+    #public-landing-page.template-5 .hero h2,
+    #public-landing-page.template-6 .hero h1,
+    #public-landing-page.template-8 .hero,
+    #public-landing-page.template-9 .hero h2,
+    #public-landing-page .hero .btn,
+    #public-landing-page .navbar .btn,
+    #public-landing-page .navbar.invert-navbar a,
+    #public-landing-page footer a,
+    #public-landing-page .benefit-header {
+      color: #68CBB4;
+    }
+    #public-landing-page .btn.btn-primary.btn-primary-invert,
+    #public-landing-page .navbar.invert-navbar .btn.btn-primary,
+    #public-landing-page .navbar .navbar-collapse.in .btn.btn-primary,
+    #public-landing-page .navbar .navbar-toggle .icon-bar,
+    #public-landing-page .download-text {
+      color: white;
+      background-color: #68CBB4;
+    }
+
+
+    #public-landing-page.template-1 .hero,
+    #public-landing-page.template-2 .hero,
+    #public-landing-page.template-4 .hero {
+      overflow: hidden;
+    }
+    #public-landing-page .hero .blurred-cover {
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      z-index: 1px;
+      background-image: url('/images/wireframes.png');
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      -webkit-filter: blur(8px);
+      -moz-filter: blur(8px);
+      -o-filter: blur(8px);
+      -ms-filter: blur(8px);
+      filter: blur(8px);
+      margin: -20% -30% -30%;
+    }
+    #public-landing-page .hero .blurred-cover .darken {
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      z-index: 2px;
+      background: rgba(0,0,0,.3);
+    }
+
+    #profile-pic {
+      border-radius: 15px;
+      background: rgba(0,0,0,.3);
+    }
+
+    #social-icons {
+      border-radius: 5px;
+    }
+
+}
+</style>
+
+
+</head>
+<body><div id="skit-controller"><div id="public-landing-page"
+  class="
+    template-1
+    full-screen
+    centered">
+
+  <section class="hero">
+    <div class="blurred-cover">
+      <div class="darken"></div>
+    </div>
+  <div class="container">
+    <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand visible-xs" href="/websites/example">
+          <img alt="Play (A Sports Community)" src="/images/toxbox.png" class="app-icon">
+        </a>
+    </div>
+
+    {{ partial "menu.html" . }}
+
+  </div>
+</nav>
+      <div class="row">
+        <div class="col-sm-5 col-xs-12 text-center">
+              <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
+    <div class="carousel-inner" role="listbox">
+        <div class="item active" id="profile-pic">
+          <img src="/images/profile-pic.png" alt="Profile Pic of Daniel Mathews" id="profile-pic">
+        </div>
+    </div>
+  </div>
+        </div>
+        <div class="col-sm-7 col-xs-12">
+          <p></p>
+          <h1> About Us </h1>
+            <p> ToyBox specializes in taking ideas from pen and paper to the App Store. We partner with founders to build beautiful iOS, Android, and Web apps. My name is Daniel Mathews, I am the founder, feel free to contact me: </p>
+            <a href="https://www.facebook.com/dannylmathews" class="app-store-badge" target="_blank">
+            <img src="/images/facebook-icon.png" id="social-icons"></a>
+            <a href="https://twitter.com/dmathewwws" class="app-store-badge" target="_blank">
+            <img src="/images/twitter-icon.png" id="social-icons"></a>
+            <a href="https://www.linkedin.com/in/dannylmathews" class="app-store-badge" target="_blank">
+            <img src="/images/linkedin-icon.png" id="social-icons"></a>
+        </div>
+      </div>
+
+  </div>
+</section>
+
+
+
+{{ partial "footer.html" . }}

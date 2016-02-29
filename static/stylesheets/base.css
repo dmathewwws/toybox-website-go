@@ -4832,6 +4832,7 @@ a.badge:focus {
   color: #337ab7;
   background-color: #fff;
 }
+
 .list-group-item > .badge {
   float: right;
 }
@@ -5178,6 +5179,10 @@ a.list-group-item:focus {
   background-color: #337ab7;
   border-color: #337ab7;
 }
+
+
+
+
 .list-group-item.active .list-group-item-heading,
 .list-group-item.active:hover .list-group-item-heading,
 .list-group-item.active:focus .list-group-item-heading,

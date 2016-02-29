@@ -11,7 +11,7 @@
 <!-- <link href="/images/icon-big.jpg" rel="shortcut icon" type="image/x-icon"> -->
 
 <meta name="description" content="Play is a fun and easy way to join sport activities that have been created by the community or your friends. Whether you are looking to discover a casual game, organize a team of friends, or be part of a community of active people, Play is the best way to get it done.">
-<meta name="keywords" content="">
+<meta name="keywords" content="Play, sports, community, about us, iOS app, ToyBox Media Inc, toybox media, toysinboxes">
 
 <!-- Facebook -->
 <meta property="og:site_name" content="Play (A Sports Community)">
@@ -125,9 +125,9 @@
     <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
           <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
+          <span class="icon-bar"></span> <!-- hamburger icon -->
+          <span class="icon-bar"></span> <!-- hamburger icon -->
+          <span class="icon-bar"></span> <!-- hamburger icon -->
         </button>
         <a class="navbar-brand visible-xs" href="/websites/example">
           <img alt="Play (A Sports Community)" src="/images/icon-big.jpg" class="app-icon">
@@ -137,10 +137,12 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
           <!-- <li><a href="/chefn/">Chefn</a></li> -->
-          <!-- <li><a href="/play/">Play</a></li> -->
+          <!-- <li><a href="/">Play</a></li> -->
           <li><a href="/about/">About Us</a></li>
       </ul>
     </div>
+
+
   </div>
 </nav>
       <div class="row">
@@ -163,44 +165,17 @@
   </div>
         </div>
         <div class="col-sm-7 col-xs-12">
+          <p></p>
           <h1> Play </h1>
             <p>Play is a fun and easy way to join sport activities that have been created by the community or your friends. Play is if you are looking to discover a casual game, organize a team of friends, or be part of a community of active people.</p>
             <a href="https://itunes.apple.com/app/id646639758" class="app-store-badge" target="_blank">
             <img src="/images/ios-app-store.png"></a>
-            <a href="https://itunes.apple.com/app/id646639758" class="google-play-badge" target="_blank">
-            <img src="/images/google-play2.png"></a>
-
         </div>
       </div>
 
   </div>
 </section>
 
-    <footer>
-    <div class="container">
-        <div class="launchkit-promo col-m-4" style="text-align: center">
-          Made with 💖 in Vancouver, Canada
-        </div>
 
-    </div>
-  </footer>
 
-</div>
-
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-40615622-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script src="//netdna.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-<script src="/javascripts/websites.js" data-bundle="websites"></script>
-
-</body>
-</html>
+{{ partial "footer.html" . }}
