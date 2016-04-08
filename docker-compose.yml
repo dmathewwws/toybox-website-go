@@ -1,5 +1,5 @@
 hugo:
   build: .
   ports:
-    - "1313:1313"
-  command: [hugo, serve]
+    - "80:80"
+  # command: [hugo, server, --bind=192.168.99.100]

@@ -9,3 +9,15 @@ RUN cd /tmp && dpkg -i hugo*.deb
 
 ADD . /src
 WORKDIR /src
+
+# Expose default hugo port
+EXPOSE 80
+
+# By default, serve site
+ENV HUGO_BASE_URL http://localhost
+CMD hugo server \
+	--baseUrl=${HUGO_BASE_URL} \
+	--port=80 \
+	--appendPort=false \
+	--bind=0.0.0.0 \
+	--disableLiveReload=true
