@@ -11,13 +11,13 @@ ADD . /src
 WORKDIR /src
 
 # Expose default hugo port
-EXPOSE 80
+EXPOSE 3001
 
 # By default, serve site
 ENV HUGO_BASE_URL http://localhost
 CMD hugo server \
 	--baseUrl=${HUGO_BASE_URL} \
-	--port=80 \
+	--port=3001 \
 	--appendPort=false \
 	--bind=0.0.0.0 \
 	--disableLiveReload=true
