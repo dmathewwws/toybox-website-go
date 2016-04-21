@@ -14,7 +14,7 @@ WORKDIR /src
 EXPOSE 80
 
 # By default, serve site
-ENV HUGO_BASE_URL http://localhost
+ENV HUGO_BASE_URL http://toysinboxes.com
 CMD hugo server \
 	--baseUrl=${HUGO_BASE_URL} \
 	--port=80 \
