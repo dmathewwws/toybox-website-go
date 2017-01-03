@@ -14,7 +14,7 @@ WORKDIR /src
 EXPOSE 3001
 
 # By default, serve site
-ENV HUGO_BASE_URL http://toysinboxes.com
+ENV HUGO_BASE_URL https://toysinboxes.com
 CMD hugo server \
 	--baseUrl=${HUGO_BASE_URL} \
 	--port=3001 \
