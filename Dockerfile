@@ -4,7 +4,7 @@ RUN apt-get update -y
 RUN apt-get upgrade -y
 RUN apt-get install apt-utils -y
 
-RUN cd /tmp && wget https://github.com/spf13/hugo/releases/download/v0.15/hugo_0.15_amd64.deb
+RUN cd /tmp && wget https://github.com/spf13/hugo/releases/download/v0.19/hugo_0.19-64bit.deb
 RUN cd /tmp && dpkg -i hugo*.deb
 
 ADD . /src
